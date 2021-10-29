@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+  background-image: linear-gradient(to right,grey,black);
+}
+.Heading {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content:center;
+      
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin: 10px 0px 10px 10px;
+    background-color: black;
+  }
+  #popout {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  #popbox {
+    height: 350px;
+    width: 700px;
+    background-image: linear-gradient(to bottom,rgb(243, 243, 231),rgb(188, 213, 229));
+    color:black;
+    margin-top: 150px;
+    margin-left: 400px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+table, td {
+   
+    border-collapse: collapse;
+    justify-content: center;
+
+  }     
+  .card{
+    height:470px;
+    width:350px;
+    box-shadow: 0 0 1px 2px black;
+    text-align: center;
+    padding:1.5em;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-left: 2em;
+    background-image: linear-gradient(to right, rgb(236, 236, 155),grey);
+
+}
+.card-img-top{
+  width: 200px;
+  height: 150px;
+  margin-top: 30px;
+  
+
+}
+.card-header{
+  background-color: black;
+  color:cornsilk;
+  font-weight: bold;
+  font-size: larger;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+.btn {
+    height: 30px;
+    width: 90%;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .card-body{
+   
+    text-transform:capitalize;
+    margin: 1em;
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+ 
+
+  
